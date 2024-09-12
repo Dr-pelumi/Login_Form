@@ -4,3 +4,51 @@
    box-sizing: border-box;
    font-family: "Poppins", system-ui;
 }
+body{
+   display: grid;
+   height: 100%;
+   place-items: center;
+   background: #1abc9c;
+
+}
+.container{
+   margin-top: 10%;
+   background-color: #fff;
+   width: 370px;
+   border-radius: 5px;
+}
+.container .title{
+  background: black; 
+  height: 60px;
+  padding-left: 70px;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.container form{
+   padding: 30px 20px 25px 20px;
+}
+.container form .row{
+   background: #ff0000;
+   height: 50px;
+   margin-bottom: 15px;
+   position: relative;
+}
+.container form .row input{
+    height: 100%; 
+   width: 100%; 
+   padding-left: 50px;
+}
+.container form .row i{
+   position: absolute;
+   width: 47px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #1abc9c;
+   font-size: 25px;
+}
